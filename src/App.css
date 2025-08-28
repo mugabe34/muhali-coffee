@@ -1,38 +1,383 @@
+/* Custom styles for United Fast Services Coffee Website */
+
 .App {
-  text-align: center;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+/* Smooth scrolling for all elements */
+* {
+  scroll-behavior: smooth;
+  box-sizing: border-box;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #228B22;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #1B5E20;
+}
+
+/* Mobile Navigation */
+.desktop-nav {
+  display: flex;
+}
+
+.mobile-nav {
+  display: none;
+}
+
+/* Show mobile menu on smaller screens and when minimized */
+@media (max-width: 1024px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: block !important;
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* Additional breakpoint for medium screens */
+@media (max-width: 900px) {
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: flex !important;
+  }
 }
 
-.App-link {
-  color: #61dafb;
+/* Responsive design */
+@media (max-width: 768px) {
+  /* Navigation - reinforced for smaller screens */
+  .desktop-nav {
+    display: none !important;
+  }
+
+  .mobile-nav {
+    display: block !important;
+  }
+
+  /* Typography */
+  h1 {
+    font-size: 2.5rem !important;
+    line-height: 1.2 !important;
+  }
+
+  h2 {
+    font-size: 2rem !important;
+    line-height: 1.3 !important;
+  }
+
+  h3 {
+    font-size: 1.5rem !important;
+  }
+
+  p {
+    font-size: 1rem !important;
+    line-height: 1.6 !important;
+  }
+
+  /* Sections */
+  section {
+    padding: 40px 15px !important;
+  }
+
+  /* Hero Section */
+  #home {
+    padding: 120px 15px 40px !important;
+    min-height: 90vh !important;
+  }
+
+  /* Gallery Section */
+  #gallery {
+    background-attachment: scroll !important;
+  }
+
+  /* Timeline adjustments for mobile */
+  .timeline-item {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-bottom: 40px !important;
+  }
+
+  .timeline-content {
+    width: 90% !important;
+    margin: 20px auto 0 !important;
+    text-align: center !important;
+  }
+
+  .timeline-dot {
+    position: relative !important;
+    left: auto !important;
+    transform: none !important;
+    margin: 0 auto 20px !important;
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  /* Timeline center line for mobile */
+  #gallery .timeline-container > div:first-child {
+    display: none !important;
+  }
+
+  /* Grid adjustments */
+  .grid-responsive {
+    grid-template-columns: 1fr !important;
+    gap: 20px !important;
+  }
+
+  /* Contact form */
+  .contact-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+  }
+
+  /* Buttons */
+  .hero-buttons {
+    flex-direction: column !important;
+    gap: 15px !important;
+  }
+
+  .hero-buttons button {
+    width: 100% !important;
+    max-width: 300px !important;
+  }
+
+  /* Social media icons */
+  .social-icons {
+    gap: 15px !important;
+  }
+
+  .social-icons a {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  /* Footer */
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    gap: 30px !important;
+    text-align: center !important;
+  }
+
+  /* Testimonial cards */
+  .testimonial-card {
+    padding: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  /* WhatsApp button */
+  .whatsapp-button {
+    width: 50px !important;
+    height: 50px !important;
+    bottom: 20px !important;
+    right: 20px !important;
+  }
 }
 
-@keyframes App-logo-spin {
+@media (max-width: 480px) {
+  /* Extra small devices */
+  h1 {
+    font-size: 2rem !important;
+  }
+
+  h2 {
+    font-size: 1.8rem !important;
+  }
+
+  section {
+    padding: 30px 10px !important;
+  }
+
+  #home {
+    padding: 100px 10px 30px !important;
+  }
+
+  /* Timeline adjustments for extra small screens */
+  .timeline-dot {
+    width: 50px !important;
+    height: 50px !important;
+  }
+
+  .timeline-content {
+    width: 95% !important;
+  }
+
+  /* Testimonial cards */
+  .testimonial-card {
+    padding: 15px !important;
+    margin-bottom: 15px !important;
+  }
+
+  /* Contact form inputs */
+  input, textarea {
+    padding: 12px !important;
+    font-size: 14px !important;
+  }
+
+  /* Header logo */
+  .header-logo {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  .header-title {
+    font-size: 16px !important;
+  }
+
+  .header-subtitle {
+    font-size: 10px !important;
+  }
+
+  /* Center company name on mobile */
+  header > div {
+    justify-content: center !important;
+    position: relative !important;
+  }
+
+  .mobile-nav {
+    position: absolute !important;
+    right: 0 !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+
+  /* Ensure company info is centered */
+  header > div > div:first-child {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+  }
+
+  /* Footer adjustments */
+  .footer-grid {
+    gap: 20px !important;
+  }
+
+  /* Social icons in footer */
+  .social-icons a {
+    width: 40px !important;
+    height: 40px !important;
+  }
+
+  /* WhatsApp button */
+  .whatsapp-button {
+    width: 45px !important;
+    height: 45px !important;
+  }
+
+  /* Story section badges */
+  .story-badges {
+    flex-direction: column !important;
+    align-items: center !important;
+  }
+
+  .story-badges > div {
+    margin-bottom: 10px !important;
+  }
+
+  /* Enhanced mobile header centering */
+  header > div {
+    justify-content: center !important;
+    position: relative !important;
+  }
+
+  header > div > div:first-child {
+    text-align: center !important;
+  }
+
+  .mobile-nav {
+    position: absolute !important;
+    right: 10px !important;
+    top: 50% !important;
+    transform: translateY(-50%) !important;
+  }
+}
+
+/* Button hover effects */
+button {
+  transition: all 0.3s ease;
+}
+
+button:hover {
+  transform: translateY(-2px);
+}
+
+/* Image hover effects */
+img {
+  transition: transform 0.3s ease;
+}
+
+img:hover {
+  transform: scale(1.02);
+}
+
+/* Loading animation */
+@keyframes fadeInUp {
   from {
-    transform: rotate(0deg);
+    opacity: 0;
+    transform: translateY(30px);
   }
   to {
-    transform: rotate(360deg);
+    opacity: 1;
+    transform: translateY(0);
   }
+}
+
+.fade-in-up {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+/* WhatsApp button pulse animation */
+@keyframes pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.7);
+  }
+  70% {
+    box-shadow: 0 0 0 10px rgba(37, 211, 102, 0);
+  }
+  100% {
+    box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+  }
+}
+
+.whatsapp-button {
+  animation: pulse 2s infinite;
+}
+
+/* Timeline image interactions */
+.timeline-dot img {
+  transition: transform 0.3s ease, z-index 0.3s ease;
+  cursor: pointer;
+}
+
+.timeline-dot img:active {
+  transform: scale(3);
+  z-index: 1000;
+  position: relative;
+  border-radius: 10px;
+  box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+}
+
+/* Timeline content cards should be behind the line */
+.timeline-content > div {
+  position: relative;
+  z-index: 2;
+  background-color: rgba(255,255,255,0.98) !important;
+  backdrop-filter: blur(15px);
 }
