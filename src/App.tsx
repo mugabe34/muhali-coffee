@@ -56,7 +56,7 @@ function App() {
             transition={{ delay: 1 }}
             style={{ color: 'rgba(255,255,255,0.8)', marginTop: '8px' }}
           >
-            Premium Muhali Coffee from Guhundwe, Rwanda
+            Premium Muhari Coffee from Gihundwe, Rwanda
           </motion.p>
         </motion.div>
       </div>
@@ -107,7 +107,7 @@ function App() {
                 color: '#666', 
                 margin: 0 
               }}>
-                Premium Muhali Coffee
+                Premium Muhari Coffee
               </p>
             </div>
           </div>
@@ -231,7 +231,7 @@ function App() {
             style={{ fontSize: '4rem', fontWeight: 'bold', marginBottom: '24px' }}
           >
             Discover the Perfect
-            <span style={{ color: '#FFD700', display: 'block' }}>Muhali Coffee</span>
+            <span style={{ color: '#FFD700', display: 'block' }}>Muhari Coffee</span>
           </motion.h1>
           
           <motion.p
@@ -240,8 +240,8 @@ function App() {
             transition={{ duration: 0.8, delay: 0.8 }}
             style={{ fontSize: '1.3rem', marginBottom: '20px', lineHeight: '1.6' }}
           >
-            From the fertile volcanic soils of <strong>Guhundwe, Rusizi, Rwanda</strong>,
-            we bring you the finest <strong>Muhali coffee</strong> - a premium blend that
+            From the fertile volcanic soils of <strong>Gihundwe, Rusizi, Rwanda</strong>,
+            we bring you the finest <strong>Muhari coffee</strong> - a premium blend that
             captures the essence of our beautiful highlands. Each bean is carefully
             hand-picked and processed with generations of expertise, delivering
             an unmatched flavor that coffee lovers around the world have come to treasure.
@@ -321,7 +321,7 @@ function App() {
             viewport={{ once: true }}
           >
             <h2 style={{ fontSize: '3rem', fontWeight: 'bold', color: '#228B22', marginBottom: '48px' }}>
-              The Muhali Coffee Story
+              The Muhari Coffee Story
             </h2>
 
             <div className="grid-responsive" style={{ display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(300px, 1fr))', gap: '40px', alignItems: 'center' }}>
@@ -333,7 +333,7 @@ function App() {
               >
                 <img
                   src="/2.jpg"
-                  alt="Muhali Coffee Beans"
+                  alt="Muhari Coffee Beans"
                   style={{
                     width: '100%',
                     height: '400px',
@@ -352,22 +352,22 @@ function App() {
                 style={{ textAlign: 'left' }}
               >
                 <h3 style={{ fontSize: '2rem', fontWeight: 'bold', color: '#228B22', marginBottom: '24px' }}>
-                  Why Muhali Coffee is the Best
+                  Why Muhari Coffee is the Best
                 </h3>
                 <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#555', marginBottom: '20px' }}>
-                  <strong>Muhali coffee</strong> represents the pinnacle of Rwandan coffee excellence.
-                  Grown at high altitudes in the mineral-rich volcanic soils of Guhundwe,
+                  <strong>Muhari coffee</strong> represents the pinnacle of Rwandan coffee excellence.
+                  Grown at high altitudes in the mineral-rich volcanic soils of Gihundwe,
                   our coffee beans develop a unique complexity and depth of flavor that sets them apart.
                 </p>
                 <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#555', marginBottom: '20px' }}>
-                  What makes Muhali coffee truly exceptional is our commitment to traditional
+                  What makes Muhari coffee truly exceptional is our commitment to traditional
                   processing methods combined with modern quality standards. Each bean is
                   hand-selected by experienced farmers who have perfected their craft over generations.
                 </p>
                 <p style={{ fontSize: '1.2rem', lineHeight: '1.8', color: '#555', marginBottom: '20px' }}>
                   The result? A coffee with bright acidity, rich body, and notes of chocolate,
                   citrus, and floral undertones that create an unforgettable tasting experience.
-                  <strong>This is why Muhali coffee is simply the best.</strong>
+                  <strong>This is why Muhari coffee is simply the best.</strong>
                 </p>
 
                 <div style={{
@@ -446,7 +446,7 @@ function App() {
               Our Coffee Journey
             </h2>
             <p style={{ fontSize: '1.2rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
-              Follow the complete journey of our Muhali coffee from farm to cup
+              Follow the complete journey of our Muhari coffee from farm to cup
             </p>
           </motion.div>
 
@@ -466,14 +466,14 @@ function App() {
 
             {/* Timeline Items */}
             {[
-              { id: 1, title: 'Coffee Plantation', desc: 'Our lush coffee farms in Guhundwe hills' },
+              { id: 1, title: 'Coffee Plantation', desc: 'Our lush coffee farms in Gihundwe hills' },
               { id: 2, title: 'Fresh Coffee Beans', desc: 'Hand-picked premium beans at peak ripeness' },
               { id: 3, title: 'Traditional Processing', desc: 'Time-honored processing methods' },
               { id: 4, title: 'Quality Control', desc: 'Ensuring every bean meets our standards' },
               { id: 5, title: 'Expert Roasting', desc: 'Roasting to bring out perfect flavors' },
               { id: 6, title: 'Precision Grinding', desc: 'Grinding for optimal extraction' },
               { id: 7, title: 'Brewing Mastery', desc: 'The art of brewing the perfect cup' },
-              { id: 8, title: 'Final Product', desc: 'Rich, aromatic Muhali coffee' },
+              { id: 8, title: 'Final Product', desc: 'Rich, aromatic Muhari coffee' },
               { id: 9, title: 'Careful Packaging', desc: 'Preserving freshness and quality' },
               { id: 10, title: 'Local Community', desc: 'Supporting our farming community' },
               { id: 11, title: 'Sustainable Farming', desc: 'Environmentally conscious cultivation' },
@@ -637,7 +637,7 @@ function App() {
               What Our Happy Clients Say
             </h2>
             <p style={{ fontSize: '1.2rem', color: '#666', maxWidth: '600px', margin: '0 auto' }}>
-              Don't just take our word for it - hear from coffee lovers who have experienced the magic of Muhali coffee
+              Don't just take our word for it - hear from coffee lovers who have experienced the magic of Muhari coffee
             </p>
           </motion.div>
 
@@ -647,42 +647,42 @@ function App() {
                 name: 'Marie Uwimana',
                 location: 'Kigali, Rwanda',
                 rating: 5,
-                quote: 'Muhali coffee is absolutely exceptional! The rich flavor and aroma remind me of home. United Fast Services delivers quality that exceeds expectations every single time.',
+                quote: 'Muhari coffee is absolutely exceptional! The rich flavor and aroma remind me of home. United Fast Services delivers quality that exceeds expectations every single time.',
                 avatar: '👩🏾‍💼'
               },
               {
                 name: 'Jean Baptiste Nzeyimana',
                 location: 'Rusizi, Rwanda',
                 rating: 5,
-                quote: 'As a local resident, I\'m incredibly proud of what United Fast Services has achieved. Their Muhali coffee represents the best of our region - pure excellence in every cup!',
+                quote: 'As a local resident, I\'m incredibly proud of what United Fast Services has achieved. Their Muhari coffee represents the best of our region - pure excellence in every cup!',
                 avatar: '👨🏾‍🌾'
               },
               {
                 name: 'Sarah Mbabazi',
                 location: 'nyamagabe, Rwanda',
                 rating: 5,
-                quote: 'I discovered Muhali coffee through a friend and now I can\'t start my day without it. The delivery is always prompt and the quality consistently outstanding. Simply the best!',
+                quote: 'I discovered Muhari coffee through a friend and now I can\'t start my day without it. The delivery is always prompt and the quality consistently outstanding. Simply the best!',
                 avatar: '👩🏼‍💻'
               },
               {
                 name: 'David Mukamana',
                 location: 'Butare, Rwanda',
                 rating: 5,
-                quote: 'United Fast Services doesn\'t just sell coffee - they share our culture and heritage. Muhali coffee is world-class quality that makes every Rwandan proud. Highly recommended!',
+                quote: 'United Fast Services doesn\'t just sell coffee - they share our culture and heritage. Muhari coffee is world-class quality that makes every Rwandan proud. Highly recommended!',
                 avatar: '👨🏾‍🎓'
               },
               {
                 name: 'Thompson Nsabiyera',
                 location: 'kigali,Rwanda',
                 rating: 5,
-                quote: 'The moment I tasted Muhali coffee, I knew I had found something special. The complex flavors and smooth finish make it my absolute favorite. Worth every penny!',
+                quote: 'The moment I tasted Muhari coffee, I knew I had found something special. The complex flavors and smooth finish make it my absolute favorite. Worth every penny!',
                 avatar: '👩🏻‍🍳'
               },
               {
                 name: 'Paul HABIMANA.',
                 location: 'Kigali, Rwanda',
                 rating: 5,
-                quote: 'Muhali coffee from United Fast Services showcases the very best of Rwandan agriculture. It\'s not just coffee - it\'s a testament to our nation\'s excellence and quality.',
+                quote: 'Muhari coffee from United Fast Services showcases the very best of Rwandan agriculture. It\'s not just coffee - it\'s a testament to our nation\'s excellence and quality.',
                 avatar: '👨🏾‍💼'
               }
             ].map((testimonial, index) => (
@@ -851,7 +851,7 @@ function App() {
               Get In Touch
             </h2>
             <p style={{ fontSize: '1.2rem', color: 'rgba(255,255,255,0.9)', maxWidth: '600px', margin: '0 auto' }}>
-              Ready to experience the finest Muhali coffee? We'd love to hear from you!
+              Ready to experience the finest Muhari coffee? We'd love to hear from you!
             </p>
           </motion.div>
 
@@ -1051,7 +1051,7 @@ function App() {
                       <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     </svg>,
                     title: 'Location',
-                    value: 'Guhundwe, Rusizi, Rwanda',
+                    value: 'Gihundwe, Rusizi, Rwanda',
                     link: null
                   }
                 ].map((contact, index) => (
@@ -1230,12 +1230,12 @@ function App() {
                     United Fast Services
                   </h3>
                   <p style={{ fontSize: '0.9rem', color: 'rgba(255,255,255,0.8)', margin: 0 }}>
-                    Premium Muhali Coffee
+                    Premium Muhari Coffee
                   </p>
                 </div>
               </div>
               <p style={{ color: 'rgba(255,255,255,0.9)', lineHeight: '1.6', marginBottom: '15px' }}>
-                From the fertile volcanic soils of Guhundwe, Rusizi, Rwanda, we bring you the finest Muhali coffee.
+                From the fertile volcanic soils of Gihundwe, Rusizi, Rwanda, we bring you the finest Muhari coffee.
                 Experience the rich flavors that tell the story of our land and our love for exceptional coffee.
               </p>
               <div style={{
@@ -1306,7 +1306,7 @@ function App() {
                     <path d="M21 10C21 17 12 23 12 23S3 17 3 10C3 5.03 7.03 1 12 1S21 5.03 21 10Z" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                     <circle cx="12" cy="10" r="3" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"/>
                   </svg>
-                  <span style={{ color: 'rgba(255,255,255,0.9)' }}>Guhundwe, Rusizi, Rwanda</span>
+                  <span style={{ color: 'rgba(255,255,255,0.9)' }}>Gihundwe, Rusizi, Rwanda</span>
                 </div>
                 <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                   <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -1357,7 +1357,7 @@ function App() {
             gap: '10px'
           }}>
             <p style={{ color: 'rgba(255,255,255,0.8)', margin: 0 }}>
-              © 2025 United Fast Services. All rights reserved. | Premium Muhali Coffee from Rwanda
+              © 2025 United Fast Services. All rights reserved. | Premium Muhari Coffee from Rwanda
             </p>
             <p style={{ color: 'rgba(255,255,255,0.6)', margin: 0, fontSize: '0.9rem' }}>
               Made with ❤️ for coffee lovers worldwide
